@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" context="width=device-width, initial-scale=1.0">
+        <title>Giovanni's Dev Corner | Street Fighter Clone</title>
+        <style>
+            html,
+            body {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+            }
+
+            body,
+            canvas {
+                background-color: black;
+            }
+
+            canvas {
+                width: 100%;
+                object-fit: contain;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+            }
+
+            img {
+                display: none;
+            }
+        </style>
+        <script type="module" src="./src/index.js"></script>
+    </head>
+    <body>
+        <canvas></canvas>
+        <img src="./AlphaChun/alphachunLi_0-4.png" alt="chun" />
+        <img src="./images/E.Honda-SF2-Stage.webp" alt="background" />
+        <img src="./juli & juni/Juni&Juli_0-0.png" alt="juli" />
+    </body> 
+</html>
